@@ -1,6 +1,13 @@
 # RustForge OS
 
+[![Rust CI](https://github.com/vivekx11/RustForgeOS/workflows/Rust%20CI/badge.svg)](https://github.com/vivekx11/RustForgeOS/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/rust-nightly-orange.svg)](https://www.rust-lang.org/)
+[![Platform](https://img.shields.io/badge/platform-x86__64-blue.svg)](https://en.wikipedia.org/wiki/X86-64)
+
 A comprehensive operating system written in Rust, featuring a custom kernel, programming language, networking stack, database engine, and distributed systems layer.
+
+**🎉 Phase 1 Complete!** - Full project structure with 12 integrated crates and comprehensive documentation.
 
 ## 🏗️ Architecture
 
