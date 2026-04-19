@@ -1,4 +1,4 @@
-//! ForgeDB - B-Tree database with ACID transactions
+//! ForgeDB - B-Tree database with ACID transactions for the further reqiurement 
 
 #![no_std]
 
