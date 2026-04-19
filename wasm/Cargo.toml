@@ -1,0 +1,12 @@
+[package]
+name = "wasm"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+common = { path = "../common" }
+runtime = { path = "../runtime" }
+
+[dev-dependencies]
+wabt = "0.10"  # For testing with WAT (WebAssembly Text format)

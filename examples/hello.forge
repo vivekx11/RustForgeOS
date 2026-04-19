@@ -1,0 +1,17 @@
+// Hello World in ForgeScript
+
+fn main() -> int {
+    let message: string = "Hello, RustForge OS!";
+    print(message);
+    
+    let x: int = 42;
+    let y: int = x * 2;
+    
+    if y > 50 {
+        print("y is greater than 50");
+    } else {
+        print("y is not greater than 50");
+    }
+    
+    return 0;
+}

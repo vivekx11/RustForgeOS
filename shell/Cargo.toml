@@ -1,0 +1,19 @@
+[package]
+name = "shell"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common = { path = "../common" }
+lang = { path = "../lang" }
+net = { path = "../net" }
+db = { path = "../db" }
+sandbox = { path = "../sandbox" }
+distributed = { path = "../distributed" }
+wasm = { path = "../wasm" }
+monitor = { path = "../monitor" }
+runtime = { path = "../runtime" }
+
+[[bin]]
+name = "shell"
+path = "src/main.rs"

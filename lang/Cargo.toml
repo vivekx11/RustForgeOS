@@ -1,0 +1,16 @@
+[package]
+name = "lang"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+logos = "0.13"
+serde = { workspace = true }
+common = { path = "../common" }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "vm_benchmark"
+harness = false

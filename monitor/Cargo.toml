@@ -1,0 +1,12 @@
+[package]
+name = "monitor"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+spin = { workspace = true }
+serde = { workspace = true }
+common = { path = "../common" }
+net = { path = "../net" }
+db = { path = "../db" }
+runtime = { path = "../runtime" }

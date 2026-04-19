@@ -1,0 +1,14 @@
+[package]
+name = "net"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+spin = { workspace = true }
+bitflags = { workspace = true }
+serde = { workspace = true }
+common = { path = "../common" }
+runtime = { path = "../runtime" }
+
+[dev-dependencies]
+hex = "0.4"

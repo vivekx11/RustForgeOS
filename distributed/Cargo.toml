@@ -1,0 +1,15 @@
+[package]
+name = "distributed"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+bincode = { workspace = true }
+spin = { workspace = true }
+common = { path = "../common" }
+net = { path = "../net" }
+runtime = { path = "../runtime" }
+
+[dev-dependencies]
+rand = "0.8"

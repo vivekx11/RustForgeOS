@@ -1,0 +1,16 @@
+// Array operations in ForgeScript
+
+fn main() -> int {
+    let numbers: array<int> = [1, 2, 3, 4, 5];
+    
+    let sum: int = 0;
+    let i: int = 0;
+    
+    while i < 5 {
+        sum = sum + numbers[i];
+        i = i + 1;
+    }
+    
+    print(sum);  // Should print 15
+    return 0;
+}

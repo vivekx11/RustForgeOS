@@ -1,0 +1,14 @@
+[package]
+name = "sandbox"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bitflags = { workspace = true }
+spin = { workspace = true }
+common = { path = "../common" }
+lang = { path = "../lang" }
+
+[features]
+default = []
+kernel-mode = []  # Enable when running in kernel context

@@ -1,0 +1,15 @@
+[package]
+name = "db"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+bincode = { workspace = true }
+spin = { workspace = true }
+common = { path = "../common" }
+runtime = { path = "../runtime" }
+
+[dev-dependencies]
+tempfile = "3.8"
+rand = "0.8"

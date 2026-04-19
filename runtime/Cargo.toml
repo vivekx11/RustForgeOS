@@ -1,0 +1,16 @@
+[package]
+name = "runtime"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+crossbeam-utils = { workspace = true }
+spin = { workspace = true }
+common = { path = "../common" }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "executor_benchmark"
+harness = false

@@ -1,0 +1,12 @@
+[package]
+name = "common"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+spin = { workspace = true }
+bitflags = { workspace = true }
+serde = { workspace = true }
+
+[features]
+default = []
