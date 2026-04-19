@@ -3,3 +3,4 @@
 pub struct WriteAheadLog {
     // TODO: Implement WAL
 }
+// wal 
