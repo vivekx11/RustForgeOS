@@ -1,5 +1,4 @@
 //! Buddy allocator implementation
-//! 
 //! A buddy allocator divides memory into power-of-2 sized blocks.
 //! When a block is freed, it's merged with its "buddy" if the buddy is also free.
 
