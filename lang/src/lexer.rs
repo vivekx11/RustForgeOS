@@ -1,7 +1,7 @@
 //! Lexer for ForgeScript - tokenizes source code
 
 use logos::Logos;
-
+// lexer.rs
 #[derive(Logos, Debug, Clone, PartialEq)]
 pub enum Token {
     // Keywords
